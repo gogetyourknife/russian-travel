@@ -2,3 +2,23 @@
   margin: 0 auto 92px;
   max-width: 984px;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .lead {
+    margin: 0 auto 88px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead {
+    margin: 0 auto 64px;
+    max-width: 100%;
+  }
+}
