@@ -21,7 +21,7 @@
   left: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
-  transition: .335s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .cover__overlay:hover::before  {
