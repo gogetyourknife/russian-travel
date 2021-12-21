@@ -9,3 +9,6 @@
 * Grid
 * Адаптивная вёртска
 * БЭМ
+
+### Published here
+https://gogetyourknife.github.io/test-for-yandex/
