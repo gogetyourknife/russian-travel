@@ -5,3 +5,9 @@
 .footer__link-item:last-child {
   margin: 0;
 }
+
+@media (max-width: 425px) {
+  .footer__link-item {
+    margin: 0 0 32px 0;
+  }
+}

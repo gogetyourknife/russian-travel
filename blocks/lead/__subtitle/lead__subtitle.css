@@ -11,8 +11,12 @@
   .lead__subtitle {
     margin: 0 auto 56px;
     max-width: calc(100% - 64px);
+    font-size: 5vw;
+    line-height: 4.7vw;
   }
 }
+
+/* размер тайтла ломает при промежуточных значениях, делила размер экрана на размер шрифта, и сделала сабтайтл поменьше */
 
 @media (max-width: 425px) {
   .lead__subtitle {

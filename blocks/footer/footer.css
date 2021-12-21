@@ -5,3 +5,15 @@
   margin: 0 auto 24px;
   max-width: calc(100% - 96px);
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .footer {
+    max-width: calc(100% - 48px);
+  }
+}
+@media (max-width: 425px) {
+  .footer {
+    flex-direction: column;
+    max-width: calc(100% - 32px);
+  }
+}

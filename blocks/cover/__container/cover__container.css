@@ -12,3 +12,9 @@
   left: 0;
   z-index: 2;
 }
+
+@media (max-width: 425px) {
+  .cover__content {
+    max-width: 288px;
+  }
+}

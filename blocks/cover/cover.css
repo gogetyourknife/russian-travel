@@ -2,3 +2,21 @@
   margin: 0 auto 92px;
   max-width: 1184px;
 }
+
+@media (min-width: 319px) and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .cover {
+    margin: 0 0 88px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover {
+    margin: 0 0 64px 0;
+  }
+}

@@ -6,3 +6,20 @@
   text-align: center;
   color: #fff;
 }
+
+@media (min-width: 426px) and (max-width: 570px) {
+  .cover__title {
+    width: 295px;
+    font-size: 33px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__title {
+    margin: 0 0 16px;
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
