@@ -11,11 +11,10 @@
   .lead__title {
     margin: 0 auto 32px;
     max-width: calc(100% - 48px);
-    font-size: 8vw;
-    line-height: 7.7vw;
+    font-size: 12.50vw;
+    line-height: 13.02vw;
   }
 }
-/* размер тайтла ломает при промежуточных значениях, делила размер экрана на размер шрифта */
 
 @media (max-width: 425px) {
   .lead__title {

@@ -1,24 +1,29 @@
 .places {
   margin: 0 auto 92px;
-  max-width: calc(100% - 296px);
+  max-width: 984px;
+  display: grid;
+  gap: 80px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .places {
-    max-width: calc(100% - 96px);
+    max-width: 90.62%;
   }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
   .places {
-    margin: 0 auto 90px;
-    max-width: calc(100% - 48px);
+    margin-bottom: 90px;
+    max-width: 93.75%;
+    gap: 73px;
   }
 }
 
 @media (max-width: 425px) {
   .places {
-    margin: 0 auto 66px;
-    max-width: 100%;
+    margin-bottom: 66px;
+    width: 100%;
+    gap: 50px;
   }
 }
