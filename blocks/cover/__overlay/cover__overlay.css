@@ -1,13 +1,17 @@
 .cover__overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
   align-items: center;
+  margin: 0 auto;
   color: #fff;
   text-decoration: none;
   width: 100%;
-  min-height: 740px;
   z-index: 2;
+  min-height: 740px;
+}
+
+.cover__overlay:hover {
+  opacity: .8;
+  transition: .2s ease-in-out;
 }
 
 @media (max-width: 1024px) {

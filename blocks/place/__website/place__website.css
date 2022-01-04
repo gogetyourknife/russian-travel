@@ -3,7 +3,7 @@
   margin: 0 0 8px 0;
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 1024px) {
   .place__website {
     margin: 0;
   }
