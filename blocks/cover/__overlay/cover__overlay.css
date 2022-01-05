@@ -1,17 +1,16 @@
 .cover__overlay {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  position: relative;
+  min-height: 740px;
+  max-width: 100%;
   margin: 0 auto;
   color: #fff;
   text-decoration: none;
-  width: 100%;
-  z-index: 2;
-  min-height: 740px;
-}
-
-.cover__overlay:hover {
-  opacity: .8;
-  transition: .2s ease-in-out;
+  z-index: 3;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
@@ -37,4 +36,3 @@
     min-height: 200px;
   }
 }
-

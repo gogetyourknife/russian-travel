@@ -3,7 +3,27 @@
   max-width: 1184px;
   min-height: 740px;
   position: relative;
+  z-index: 2;
+  background: url('../../images/footer_bg.jpg') center center/cover no-repeat;
+  box-sizing: border-box;
+}
+
+.cover::before {
+  content: '';
+  background-color: #2A2C2F;
+  opacity: .25;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   z-index: 1;
+  box-sizing: border-box;
+}
+
+.cover:hover::before {
+  opacity: .8;
+  transition: .2s ease-in-out;
 }
 
 @media (max-width: 1024px) {
