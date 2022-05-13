@@ -11,4 +11,4 @@
 * БЭМ
 
 ### Published here
-https://gogetyourknife.github.io/test-for-yandex/
+https://gogetyourknife.github.io/russian-travel/
